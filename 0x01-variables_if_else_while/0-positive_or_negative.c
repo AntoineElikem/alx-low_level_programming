@@ -3,9 +3,10 @@
 #include <time.h>
 
 /**
- * This is the main function description
+ * This is the main function description.
  *
- * @return 0 if the program completes successfully
+ * Description: this is the main function
+ * @return 0 if the program completes successfully.
  */
 int main(void)
 {
