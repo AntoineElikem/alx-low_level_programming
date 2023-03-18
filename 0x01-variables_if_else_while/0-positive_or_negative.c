@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* betty style doc for function main goes there */
+/**
+ * This is the main function
+ *
+ */
 int main(void)
 {
 int n;
