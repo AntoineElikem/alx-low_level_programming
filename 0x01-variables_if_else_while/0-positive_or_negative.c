@@ -5,7 +5,7 @@
 /**
  * This is the main function description.
  *
- * Description: this is the main function
+ * main - this is the main function
  * @return 0 if the program completes successfully.
  */
 int main(void)
