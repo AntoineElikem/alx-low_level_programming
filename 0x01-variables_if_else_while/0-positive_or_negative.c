@@ -3,28 +3,27 @@
 #include <time.h>
 
 /**
- * This is the main function description.
+ * main - Tests if random number is positive, negative or equal
  *
- * main - this is the main function
- * @return 0 if the program completes successfully.
+ * Return: 0 if the program completes successfully.
  */
 int main(void)
 {
-int n;
+	int n;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n > 0)
-{
-	printf("%d is positive\n", n);
-}
-else if (n < 0)
-{
-	printf("%d is negative\n", n);
-}
-else
-{
-	printf("%d is zero\n", n);
-}
-return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n);
+	}
+	else
+	{
+		printf("%d is zero\n", n);
+	}
+	return (0);
 }
