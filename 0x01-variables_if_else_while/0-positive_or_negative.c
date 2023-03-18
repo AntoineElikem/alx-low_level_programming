@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* short description here */
 
 /**
- * This is the main function
- *
+ * This is the main function description
  */
 int main(void)
 {
@@ -24,5 +24,6 @@ else
 {
 	printf("%d is zero\n", n);
 }
+/* returning success */
 return (0);
 }
