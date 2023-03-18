@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int alphabet;
-	
+	int alphabet
+
 	alphabet = 'a';
 	while (alphabet <= 'z')
 	{
