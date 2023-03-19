@@ -8,21 +8,21 @@
 
 int main(void)
 {
-        int alphabet;
+	int alphabet;
 	int capital;
 
-        alphabet = 'a';
+	alphabet = 'a';
 	capital = 'A';
-        while (alphabet <= 'z')
-        {
-                putchar(alphabet);
-                alphabet++;
-        }
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
 	while (capital <= 'Z')
 	{
 		putchar(capital);
 		capital++;
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
