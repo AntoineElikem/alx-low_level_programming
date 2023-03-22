@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* main - Display "_puschar" 
+* main - Display "_puschar"
 *
 * Return: 0 for success
 */
