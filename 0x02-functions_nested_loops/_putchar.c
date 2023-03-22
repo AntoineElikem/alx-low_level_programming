@@ -7,7 +7,7 @@
 * Return: 0 for success
 */
 
-void _putchar(char str[])
+int _putchar(char str[])
 {
 	int i = 0;
 
@@ -17,4 +17,5 @@ void _putchar(char str[])
 		i++;	
 	}
 	putchar('\n');
+	return 0;
 }
