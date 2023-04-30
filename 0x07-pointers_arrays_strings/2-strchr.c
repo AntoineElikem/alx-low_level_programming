@@ -1,23 +1,27 @@
 /**
-* _strchr - locates a character in a string
-* @s: string that will be searched
+* _strchr - function to locate character in string
+* @s: source string to search
 * @c: character to search for
-* Return: pointer fifo character found or NULL if not found
+* Return: pointer to character or NULL if not found
 */
 
 char *_strchr(char *s, char c)
 {
+char *result = NULL;
+
 while (*s != '\0')
 {
+
 if (*s == c)
 {
-return (s);
+result = s;
+break;
 }
 s++;
 }
 if (*s == c)
 {
-return (s);
+result = s;
 }
-return (0);
+return (result);
 }
